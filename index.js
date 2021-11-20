@@ -1,12 +1,17 @@
 const nama = "Aris Sutrisna";
 // fungsi const -- constanta - tidak bisa dirubah - cuma bisa dirubah sekali
+function getNama(){
+    return nama;
+}
 
-let hobi = "Sepedaan";
+// let hobi = "Sepedaan";
 // fungsi let -- lepaskan bisa langsung dirubah berkali kali kalo ingin rubah isi
 
-hobi = "trading..";
+// hobi = "trading..";
 
-console.log("Saya suka",nama);
+console.log(getNama());
+
+// console.log("Saya suka",nama);
 // console.log(`${nama}, ${hobi}`);
 // Pakai curek sebelah angka 1
 
